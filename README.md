@@ -1,6 +1,3 @@
-Cross-validation data
-
-Cross-validation data
 
 # IMVRL-GCN
 
