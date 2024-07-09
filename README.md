@@ -23,6 +23,13 @@ The dependencies is the pytorch environment on Linux system, the operating syste
 
 - scipy 1.4.1
 
+```
+# Create a virtual environment and install the requirements
+conda create -n [ENVIRONMENT NAME] python==3.7.0
+conda activate [ENVIRONMENT NAME]
+pip install -r requirements.txt
+```
+
 ## Dataset
 
 1. `./data/CPDB_datasets.pkl` contains the PPI network (as an adjacency matrix for input into GCN, $n\times n$) extracted from the CPDB database and the feature matrix `X` ($n\times d$, where $d$ is the size of the feature dimension, here $d=64$).
