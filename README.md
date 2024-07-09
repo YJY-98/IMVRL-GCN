@@ -29,5 +29,5 @@ pip install -r requirements.txt
 Start model training
 
 ```
-python CancerGenePrediction.py
+python IMVRL-GCN.py
 ```
