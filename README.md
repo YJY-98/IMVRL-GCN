@@ -55,3 +55,23 @@ Excepted output: The output file is saved in the `output` directory, including d
 ## Instructions for use with your own data
 
 If you want to run IMVRL-GCN on your own dataset, you should refer to `./data/CPDB_datasets.pkl` and `./data/k_sets.pkl` to prepare your own adjacency matrix, feature matrix information and experiment setup information for five-fold cross validation. And then you should modify the relevant code in the function `load_datasets()` in `IMVRL-GCN.py`
+
+## Citation
+
+If you find this repository useful, please cite the following paper:
+
+```
+@article{10.1093/bib/bbae418,
+    author = {Yang, Jianye and Fu, Haitao and Xue, Feiyang and Li, Menglu and Wu, Yuyang and Yu, Zhanhui and Luo, Haohui and Gong, Jing and Niu, Xiaohui and Zhang, Wen},
+    title = "{Multiview representation learning for identification of novel cancer genes and their causative biological mechanisms}",
+    journal = {Briefings in Bioinformatics},
+    volume = {25},
+    number = {5},
+    pages = {bbae418},
+    year = {2024},
+    month = {08},
+    issn = {1477-4054},
+    doi = {10.1093/bib/bbae418},
+    url = {https://doi.org/10.1093/bib/bbae418},
+}
+```
